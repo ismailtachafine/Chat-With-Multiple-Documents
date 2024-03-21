@@ -11,9 +11,17 @@
 
 2. Activate the environment venv:
 
+  On Windows:
 ```bash
   venv\Scripts\activate
 ```
+
+  On macOS/Linux:
+```bash
+  source venv/bin/activate
+```
+
+Creating a virtual environment prevents dependency conflicts and ensures a cleaner project management.
 
 ## Installation
 
