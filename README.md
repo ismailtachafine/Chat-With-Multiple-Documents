@@ -1,18 +1,31 @@
 
 # Chat With Multiple Documents
 
+## Environment Setup (Optional but Highly Recommended)
+
+1. Create a python environment (venv for example):
+
+```bash
+  python -m venv venv
+```
+
+2. Activate the environment venv:
+
+```bash
+  venv\Scripts\activate
+```
 
 ## Installation
 
-1. Install the required dependencies using pip:
+3. Install the required dependencies using pip:
 
 ```bash
   pip install -r requirements.txt
 ```
 
-## Setup
+## API Key
 
-2. Acquire a Gemini API key and put it an .env file in the same directory:
+4. Acquire a Gemini API key and put it in an .env file that you create in the same directory:
 
 ```bash
   GOOGLE_API_KEY="your_api_key_here"
@@ -20,7 +33,7 @@
 
 ## Usage
 
-3. Run the Streamlit app by executing:
+5. Run the Streamlit app by executing:
 
 ```bash
   streamlit run app.py
