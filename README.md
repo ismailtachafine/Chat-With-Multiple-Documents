@@ -33,7 +33,7 @@
 
 ## Usage
 
-5. Run the Streamlit app by executing:
+5. Run the Streamlit app:
 
 ```bash
   streamlit run app.py
